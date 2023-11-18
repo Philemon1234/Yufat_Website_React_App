@@ -1,24 +1,27 @@
-import React from 'react'
+import React from 'react';
 
-function About() {
+const About = () => {
   return (
     <>
       <main>
-        <header class="about_header">
-          <div class="banner about_banner" style={{
-            background: 'url(assets/About-images/about-wallpaper.png)',
-            backgroundSize: 'cover'
-          }}>
-            <div class="banner-content about_banner_content">
-              <h1 class="banner-title mt-s mb-m">ABOUT US</h1>
+        <header className="about_header">
+          <div
+            className="banner about_banner"
+            style={{
+              background: 'url(assets/About-images/about-wallpaper.png)',
+              backgroundSize: 'cover',
+            }}
+          >
+            <div className="banner-content about_banner_content">
+              <h1 className="banner-title mt-s mb-m">ABOUT US</h1>
             </div>
           </div>
         </header>
 
-        <section id="welcome-section" class="about_welcome_section welcome_section">
-          <div class="welcome_text_content">
-            <h1 class="title_psuedo welcome_title mb-s">WELCOME TO YUFAT</h1>
-            <p class="welcome_par">
+        <section id="welcome-section" className="about_welcome_section welcome_section">
+          <div className="welcome_text_content">
+            <h1 className="title_psuedo welcome_title mb-s">WELCOME TO YUFAT</h1>
+            <p className="welcome_par">
               YUFAT is a community-based refugee Led organization whose
               specific objective is to equip youth and children
               with quality computer skills that go beyond basic knowledge,
@@ -27,16 +30,16 @@ function About() {
             </p>
           </div>
 
-          <div class="welcome_image_container mb-b">
+          <div className="welcome_image_container mb-b">
             <img src="./assets/Home-images/welcome-image.png" alt="welcome-image" />
           </div>
         </section>
 
-        <section class="about_causes_section causes_section pt-b">
-          <div class="causes_card_container flex justify-space-between">
-            <div class="causes_card">
-              <h3 class="causes_card_title mb-s">Computer Literacy</h3>
-              <p class="causes_card_text">
+        <section className="about_causes_section causes_section pt-b">
+          <div className="causes_card_container flex justify-space-between">
+            <div className="causes_card">
+              <h3 className="causes_card_title mb-s">Computer Literacy</h3>
+              <p className="causes_card_text">
                 YUFAT's focus on training in Microsoft
                 packages, internet usage, graphics design, and
                 Computer Aided Learning (CAL) promotes computer
@@ -46,9 +49,9 @@ function About() {
               </p>
             </div>
 
-            <div class="causes_card">
-              <h3 class="causes_card_title mb-s">Supporting Refugee Settlements</h3>
-              <p class="causes_card_text">
+            <div className="causes_card">
+              <h3 className="causes_card_title mb-s">Supporting Refugee Settlements</h3>
+              <p className="causes_card_text">
                 YUFAT's presence and initiatives, particularly
                 in Kyaka II refugee settlement, provide support and
                 educational opportunities to refugee communities. This
@@ -60,7 +63,7 @@ function About() {
         </section>
       </main>
     </>
-  )
+  );
 }
 
-export default About;
+export default About

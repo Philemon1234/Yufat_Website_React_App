@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
 );
 
 // let openNav = document.getElementById("open");
@@ -76,7 +76,6 @@ root.render(
 
 // Scroll Animations
 // const hiddenElements = document.querySelectorAll(".hidden");
-
 
 // const observer = new IntersectionObserver((entries) => {
 //     entries.forEach((entry) => {
